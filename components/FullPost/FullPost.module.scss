@@ -1,0 +1,36 @@
+.root {
+    padding: 30px;
+}
+
+.p {
+    margin-bottom: 15px;
+        font-size: 18px;
+}
+
+.title {
+    font-weight: 500 !important;
+    margin-bottom: 20px;
+    font-size: 36px !important;
+}
+
+.userInfo {
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+    }
+    b {
+        font-size: 18px;
+        margin-right: 10px;
+        font-weight: 500;
+    }
+    span {
+        font-size: 15px;
+        color: #2ea83a;
+        font-weight: 500;
+    }
+}
