@@ -13,6 +13,7 @@
 
 .form {
     position: relative;
+    margin-bottom: 30px;
 }
 
 .addButton {
@@ -29,5 +30,6 @@
     bottom: 0;
     margin-bottom: 15px;
     margin-right: 9px;
+    // тот же класс, что выше (addButton), но для случаев, когда форма ввода текста пуста
     opacity: 0.5;
 }

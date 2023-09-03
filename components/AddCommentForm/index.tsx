@@ -28,7 +28,7 @@ export const AddCommentForm = () => {
             {clicked && (
                 <Button 
                     onClick={onAddComment} 
-                    className={ text ? styles.addButton : styles.addButtonOpacity} 
+                    className={text ? styles.addButton : styles.addButtonOpacity} 
                     size='small' 
                     variant='contained'
                 >

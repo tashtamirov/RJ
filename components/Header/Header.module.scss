@@ -59,3 +59,19 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+.btnUser {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover {
+        color: #dbad61;
+    }
+
+    svg {
+        margin-right: 1px;
+    }
+}
