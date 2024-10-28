@@ -1,5 +1,5 @@
-import React from 'react'
-import EditorJS from '@editorjs/editorjs'
+import React from 'react';
+import EditorJS from '@editorjs/editorjs';
 
 export const Editor: React.FC = () => {
 
@@ -22,6 +22,6 @@ export const Editor: React.FC = () => {
     return (
         <div id='editorjs' />
     )
-}
+};
 
 
